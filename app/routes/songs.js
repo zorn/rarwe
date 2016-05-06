@@ -6,7 +6,6 @@ var Song = Ember.Object.extend({
   band: ''
 })
 
-
 export default Ember.Route.extend({
   model: function() {
     var blackDog = Song.create({
