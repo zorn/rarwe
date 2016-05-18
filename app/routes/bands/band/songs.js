@@ -17,13 +17,6 @@ export default Ember.Route.extend({
       controller.set('title', '');
     },
 
-    updateRating: function(params) {
-      var song = params.item,
-      rating = params.rating;
-
-      song.set('rating', rating);
-    }
-
   }
 
 });
